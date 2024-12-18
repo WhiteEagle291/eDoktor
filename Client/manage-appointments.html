@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управљање Прегледима</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ваши Заказани Прегледи</h1>
+    </header>
+
+    <main>
+        <section id="appointmentsSection">
+            <h2>Списак Прегледа</h2>
+            <div id="appointmentsList">
+                <p>Учитавање ваших прегледа...</p>
+            </div>
+        </section>
+
+        <section id="actionsSection">
+            <h2>Акције</h2>
+            <form id="editAppointmentForm" style="display:none;">
+                <label for="doctorSelect">Изаберите новог лекара:</label>
+                <select id="doctorSelect">
+                    <option value="">-- Изаберите лекара --</option>
+                </select>
+
+                <label for="newAppointmentDate">Нови Датум:</label>
+                <input type="date" id="newAppointmentDate">
+
+                <label for="newAppointmentTime">Ново Време:</label>
+                <input type="time" id="newAppointmentTime">
+
+                <button type="button" id="updateAppointmentButton">Ажурирај Преглед</button>
+            </form>
+        </section>
+
+        <!-- Back Button -->
+        <a href="patient-dashboard.html" class="back-button">Назад на Почетну</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Платформа за Резервацију Прегледа</p>
+    </footer>
+
+    <!-- Include manage-appointments.js -->
+    <script src="js/manage-appointments.js"></script>
+</body>
+</html>

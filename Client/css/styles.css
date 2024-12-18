@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+}
+
+nav button {
+    background-color: #888;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #666;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* General Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.steps, .benefits-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.step, .benefit {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+
+
+
+/* Center the button container */
+.button-container {
+    display: flex;
+    justify-content: center; /* Align buttons in the center */
+    gap: 20px; /* Add space between buttons */
+    margin-top: 30px;
+}
+
+/* Style for buttons */
+.action-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff; /* White text color */
+    background-color: #007BFF; /* Blue background */
+    text-decoration: none; /* Remove underline */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+/* Hover effect for buttons */
+.action-button:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: translateY(-5px); /* Slight lift effect */
+    color: #fff;
+}
+
+/* Optional: Add responsiveness for small screens */
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center; /* Center-align vertically stacked buttons */
+    }
+
+    .action-button {
+        width: 80%; /* Make buttons take more width */
+        text-align: center;
+    }
+}

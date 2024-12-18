@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakazivanje Pregleda</title>
+    <link rel="stylesheet" href="css/appointment-styles.css">
+</head>
+<body>
+    <header>
+        <h1>Zakazivanje Lekarskog Pregleda</h1>
+    </header>
+
+    <main>
+        <!-- Step 1: Select Doctor Specialization -->
+<section id="selectDoctor">
+    <h2>1. Izaberite specijalizaciju lekara</h2>
+        <select id="specializationSelect">
+            <option value="">-- Izaberite specijalizaciju --</option>
+            <option value="0">Kardiolog</option> <!-- Cardiologist -->
+            <option value="1">Stomatolog</option> <!-- Dentist -->
+            <option value="2">Neurolog</option> <!-- Neurologist -->
+            <option value="3">Dermatolog</option> <!-- Dermatologist -->
+            <option value="4">Pedijatar</option> <!-- Pediatrician -->
+            <option value="5">Hirurg</option> <!-- Surgeon -->
+            <option value="6">Psihijatar</option> <!-- Psychiatrist -->
+            <option value="7">Ortoped</option> <!-- Orthopedic -->
+        </select>
+    </section>
+</section>
+
+<!-- Step 2: Select Doctor -->
+<section id="selectDoctorDropdown">
+    <h2>2. Izaberite lekara</h2>
+    <select id="doctorSelect">
+        <option value="">-- Prvo izaberite specijalizaciju --</option>
+    </select>
+</section>
+
+<!-- Step 3: Select Date -->
+<section id="selectDate">
+    <h2>3. Izaberite datum</h2>
+    <input type="date" id="appointmentDate" min="" required>
+</section>
+
+        <!-- Step 4: Select Time Slot -->
+        <div id="timeSlots">
+            <p>Izaberite datum i doktora da prikažete slobodne termine.</p>
+        </div>
+        
+        <!-- Step 5: Confirm Appointment -->
+        <section id="confirmAppointment">
+            <h2>4. Potvrda</h2>
+            <div id="appointmentSummary">
+                <p>Specijalizacija: <span id="selectedSpecialization">N/A</span></p>
+                <p>Datum: <span id="selectedDate">N/A</span></p>
+                <p>Vreme: <span id="selectedTime">N/A</span></p>
+            </div>
+            <button id="confirmButton">Potvrdite Zakazivanje</button>
+        </section>
+    </main>
+
+
+    <a href="patient-dashboard.html" class="back-button">Назад на Почетну</a>
+
+    <footer>
+        <p>&copy; 2024 Zdravstveni Sistem</p>
+    </footer>
+
+    <script src="js/patient-appointments.js"></script>
+</body>
+</html>

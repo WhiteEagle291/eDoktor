@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header, footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+select, input, button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.time-slot-button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.time-slot-button:hover {
+    background-color: #f0f0f0;
+}
+
+.time-slot-button.selected {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+
+#appointmentSummary p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#confirmButton {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+}
+
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+

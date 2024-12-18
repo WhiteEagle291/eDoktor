@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Систем за Медицинске Прегледе</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Добро дошли у Систем за Медицинске Прегледе</h1>
+                <p>Резервишите свој преглед лако и брзо, без чекања у редовима!</p>
+                <a href="#loginSection" class="cta-button">Пријавите се</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <h2>Шта вам наша платформа нуди?</h2>
+        <p>Систем за Медицинске Прегледе омогућава пацијентима да брзо и једноставно резервишу термине код лекара, без непотребног чекања у реду.</p>
+        <ul>
+            <li>Онлајн пријава пацијената</li>
+            <li>Планирање и резервација термина</li>
+            <li>Доступност информација о прегледима</li>
+        </ul>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="howItWorks">
+        <h2>Како функционише?</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>1. Пријавите се</h3>
+                <p>Унесите своје податке као што су име, е-маил и ЈМБГ за приступ систему.</p>
+            </div>
+            <div class="step">
+                <h3>2. Изаберите термин</h3>
+                <p>Погледајте доступне термине и резервишите онај који вам одговара.</p>
+            </div>
+            <div class="step">
+                <h3>3. Посетите лекара</h3>
+                <p>Дођите у заказано време и избегните чекање.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="loginSection">
+        <h2>Пријава пацијента</h2>
+        <form id="loginForm" onsubmit="handleLogin(event)">
+            <label for="patientName">Име и презиме:</label>
+            <input type="text" id="patientName" name="name" placeholder="Унесите име и презиме" required>
+
+            <label for="patientEmail">Е-маил:</label>
+            <input type="email" id="patientEmail" name="email" placeholder="Унесите е-маил адресу" required>
+
+            <label for="patientJMBG">ЈМБГ:</label>
+            <input type="text" id="patientJMBG" name="jmbg" placeholder="Унесите ЈМБГ" required>
+
+            <button type="submit">Пријавите се</button>
+        </form>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits">
+        <h2>Зашто користити наш систем?</h2>
+        <div class="benefits-grid">
+            <div class="benefit">
+                <h3>Штедите време</h3>
+                <p>Резервација термина је брза и једноставна, а чекање минимално.</p>
+            </div>
+            <div class="benefit">
+                <h3>Потпуна контрола</h3>
+                <p>Прегледајте и управљајте својим терминима у било ком тренутку.</p>
+            </div>
+            <div class="benefit">
+                <h3>Сигурни подаци</h3>
+                <p>Ваши лични подаци су заштићени и сигурно чувани.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Контактирајте нас</h2>
+        <p>Уколико имате било каква питања, слободно нас контактирајте:</p>
+        <p><strong>Телефон:</strong> +381 11 123 4567</p>
+        <p><strong>Е-маил:</strong> support@medicinski-sistem.rs</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Систем за Медицинске Прегледе | Сва права задржана</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
