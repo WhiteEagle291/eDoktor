@@ -137,3 +137,4 @@ C:\Users\Djordje\Desktop\WebTemplate\obj\Debug\net8.0\refint\WebTemplate.dll
 C:\Users\Djordje\Desktop\WebTemplate\obj\Debug\net8.0\WebTemplate.pdb
 C:\Users\Djordje\Desktop\WebTemplate\obj\Debug\net8.0\WebTemplate.genruntimeconfig.cache
 C:\Users\Djordje\Desktop\WebTemplate\obj\Debug\net8.0\ref\WebTemplate.dll
+C:\Users\Djordje\Desktop\WebTemplate\obj\Debug\net8.0\WebTemplate.sourcelink.json

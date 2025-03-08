@@ -207,3 +207,51 @@ footer {
         text-align: center;
     }
 }
+
+
+
+
+
+/* Top Navigation Bar */
+.top-nav {
+    background-color: #007BFF; /* Blue background */
+    padding: 10px 0; /* Add padding */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.top-nav ul {
+    list-style: none; /* Remove list bullets */
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center items */
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav ul li {
+    margin: 0 15px; /* Add space between items */
+}
+
+.top-nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text color */
+    font-size: 1.1rem; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.top-nav ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Optional: Make Navbar Responsive */
+@media (max-width: 768px) {
+    .top-nav ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center-align items */
+    }
+
+    .top-nav ul li {
+        margin: 10px 0; /* Add spacing vertically */
+    }
+}
